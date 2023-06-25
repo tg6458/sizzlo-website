@@ -1,0 +1,127 @@
+[{
+  "_id": {
+    "$oid": "636a9afa6f0492a7e10980ba"
+  },
+  "restaurant_name": "Shakes Corner",
+  "name": "Chocolate Shake",
+  "image": "ch.png",
+  "price": "120",
+  "description": "Richness of the sweet,roasted cocoa makes you desire those irresiatable flavours and transcends you straight to heaven."
+},{
+  "_id": {
+    "$oid": "636b4fd6bba701cbd9983898"
+  },
+  "restaurant_name": "Shakes Corner",
+  "name": "Oreo Chocolate Shake",
+  "image": "oreo.png",
+  "price": "140",
+  "description": "We took the Oreo dunk to the next level! The good old cream and cookie shake now with a rich chocolate flavour."
+},{
+  "_id": {
+    "$oid": "636b5480bba701cbd9983879"
+  },
+  "restaurant_name": "Shakes Corner",
+  "name": "Cold Coffee",
+  "image": "cold.png",
+  "price": "100",
+  "description": "This is a classic flavour combo made with refeshing coffee,ice and chocolate syrup, made to suit your palette."
+},{
+  "_id": {
+    "$oid": "636b54a0bba701cbd998387a"
+  },
+  "restaurant_name": "Shakes Corner",
+  "name": "Strawberry Shake",
+  "image": "StrawberryShake.png",
+  "price": "90",
+  "description": "When we say strawberry, you say yum! Have a swig to know what we mean."
+},{
+  "_id": {
+    "$oid": "636b54afbba701cbd998387b"
+  },
+  "restaurant_name": "Shakes Corner",
+  "name": "Vanilla Shake",
+  "image": "van.png",
+  "price": "80",
+  "description": "If there was such a thing as a comfort shake, it would be a vanilla shake"
+},{
+  "_id": {
+    "$oid": "636b54d1bba701cbd997388c"
+  },
+  "restaurant_name": "Shakes Corner",
+  "name": "Mango Milkshake",
+  "image": "mango.png",
+  "price": "90",
+  "description": "Refreshing mango and ice cream perfectly balanced in a milshake."
+},{
+  "_id": {
+    "$oid": "636b54f7bba701cbd958388d"
+  },
+  "restaurant_name": "Shakes Corner",
+  "name": "Blueberry Shake",
+  "image": "blue.png",
+  "price": "140",
+  "description": "The sweet tartness of bluberries meets the crunch of cookies. Encased in rich milkshake."
+},{
+  "_id": {
+    "$oid": "636b5508bba701cbd998788e"
+  },
+  "restaurant_name": "Shakes Corner",
+  "name": "Choco Chip Chocolate Shake",
+  "image": "chip.png",
+  "price": "140",
+  "description": "Balancing the thick texture with the delightful and gooey crunch of choco-chips in a milkshake."
+},{
+  "_id": {
+    "$oid": "636b5513bba701cbd998788f"
+  },
+  "restaurant_name": "Shakes Corner",
+  "name": "Banana Shake",
+  "image": "banana.png",
+  "price": "70",
+  "description": "Beautiful mix of banana and cream mixed with rich ice cream n milk."
+},{
+  "_id": {
+    "$oid": "636b5541bba701cbd9989890"
+  },
+  "restaurant_name": "Shakes Corner",
+  "name": "Chocolate Hazelnut Shake",
+  "image": "hazel.png",
+  "price": "140",
+  "description": "The earthy nutty flavours of hazelnut,combined with rich cocoa flavours of chocolate: a match made in heaven."
+},{
+  "_id": {
+    "$oid": "636b5559bba701cbd9982891"
+  },
+  "restaurant_name": "Shakes Corner",
+  "name": "Kit-Kat Shake",
+  "image": "kit.png",
+  "price": "150",
+  "description": "The shake for when you need a break!Chocolate wafers blended with vanilla icecream for a timeless favourite."
+},{
+  "_id": {
+    "$oid": "636b559fbba701cbd9987894"
+  },
+  "restaurant_name": "Shakes Corner",
+  "name": "Virgin Mojito",
+  "image": "mojito.png",
+  "price": "90",
+  "description": "The virgin Mojito is a basically non-alcoholic drink.If life gives you lemon, make mojito out of it."
+},{
+  "_id": {
+    "$oid": "636b566fbba701cbd988389a"
+  },
+  "restaurant_name": "Shakes Corner",
+  "name": "Blue Berry Soda",
+  "image": "bluesoda.png",
+  "price": "90",
+  "description": "This Blueberry Soda soothes your body and mind with a lingering taste of Blueberry. The drink is rejuvenating and healthy."
+},{
+  "_id": {
+    "$oid": "636b5687bba701cbd992389b"
+  },
+  "restaurant_name": "Shakes Corner",
+  "name": "Shikanji/Lemonade",
+  "image": "lemon.png",
+  "price": "90",
+  "description": "This is a refreshing drink to quench your thirst. Lemon soda is instant and quick to make, helps in digestion too."
+}]

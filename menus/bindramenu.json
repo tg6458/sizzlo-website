@@ -1,0 +1,145 @@
+[{
+  "_id": {
+    "$oid": "636a9afa6f0493a7e11880ba"
+  },
+  "restaurant_name": "Bindra pakode",
+  "name": "Bread pakoda",
+  "image": "bread pakoda.png",
+  "price": "60",
+  "description": "Bread pakoda or bread bajji are made with a spiced batter of gram flour aka besan, spices and salt with spicy, tangy potato stuffing."
+},{
+  "_id": {
+    "$oid": "636b4fd6bba702cbd2983888"
+  },
+  "restaurant_name": "Bindra pakode",
+  "name": "Aloo pakora",
+  "image": "Aloopakoda.png",
+  "price": "60",
+  "description": "Aloo pakora are soft melt-in-the-mouth fried potato fritters coated in a delicious, golden, crispy batter. It is also known as potato bajji"
+},{
+  "_id": {
+    "$oid": "636b5480bba708cvd9983889"
+  },
+  "restaurant_name": "Bindra pakode",
+  "name": "Onion Pakoda",
+  "image": "onionpkda.png",
+  "price": "60",
+  "description": "Onion Pakoda is a deep fried Indian snack of crispy and tasty onion fritters made with gram flour (besan), spices and herbs."
+},{
+  "_id": {
+    "$oid": "636b54a0bba704vbd998388a"
+  },
+  "restaurant_name": "Bindra pakode",
+  "name": "Palak pakoda",
+  "image": "plkpkoda.png",
+  "price": "60",
+  "description": "Palak pakoda are delicious Indian spinach fritters made with fresh spinach leaves, gram flour, spices and herbs."
+},{
+  "_id": {
+    "$oid": "636b54afbba705cbd098388b"
+  },
+  "restaurant_name": "Bindra pakode",
+  "name": "Gobhi pakoda",
+  "image": "Gobhipakoda.png",
+  "price": "60",
+  "description": "Cauliflower pakoda also known as gobi pakora are crunchy and delicious Indian fritters made with cauliflower florets, gram flour, spices and herbs. "
+},{
+  "_id": {
+    "$oid": "636b54d1bba721cb6998388c"
+  },
+  "restaurant_name": "Bindra pakode",
+  "name": "Mirchi pakoda",
+  "image": "Mirchipakoda.png",
+  "price": "70",
+  "description": "Crisp mirch pakodas stuffed with a potato filling make for a great snack. "
+},{
+  "_id": {
+    "$oid": "636b54f7bba701cb2998388d"
+  },
+  "restaurant_name": "Bindra pakode",
+  "name": "Kamal kakdi pakoda",
+  "image": "kkpakoda.png",
+  "price": "80",
+  "description": "Lotus stem fritters are very interesting way to incorporate it in our diet."
+},{
+  "_id": {
+    "$oid": "636b5508bba202cbd998388e"
+  },
+  "restaurant_name": "Bindra pakode",
+  "name": "Paneer pakoda",
+  "image": "Paneerpakoda.png",
+  "price": "100",
+  "description": "Paneer pakora is a popular evening snack from North Indian cuisine. It is made by batter frying Indian cottage cheese aka paneer."
+},{
+  "_id": {
+    "$oid": "636b5513bba607cbd998388f"
+  },
+  "restaurant_name": "Bindra pakode",
+  "name": "Soya chaap pakora",
+  "image": "Scpakode.png",
+  "price": "110",
+  "description": "The cooked chaap are tossed in a tangy mixture made using onions, lime juice, green chilies, chaat masala, butter, and cooking cream."
+},{
+  "_id": {
+    "$oid": "636b5541bba751cbd3983890"
+  },
+  "restaurant_name": "Bindra pakode",
+  "name": "Methi pakoda",
+  "image": "Methipakoda.png",
+  "price": "70",
+  "description": "Methi pakoda are spiced fried fritters made with gram flour batter, fresh fenugreek leaves, herbs and spices."
+},{
+  "_id": {
+    "$oid": "636b5559bba701cbd9975891"
+  },
+  "restaurant_name": "Bindra pakode",
+  "name": "Ghiyaa pakoda",
+  "image": "Ghiyaapakoda.png",
+  "price": "60",
+  "description": "A spicy green masala paste involving cilantro, green chilies, cumin seeds and garlic is added to the besan batter which makes these bottle gourd fritters zesty."
+},{
+  "_id": {
+    "$oid": "636b556abba751cbd9983992"
+  },
+  "restaurant_name": "Bindra pakode",
+  "name": "Special paneer bread pakoda",
+  "image": "spbreadpakoda.png",
+  "price": "120",
+  "description": "Bread paneer pakora aka paneer bread bajji one of the popular indian street food recipe made with sandwich bread and paneer, aloo stuffing."
+},{
+  "_id": {
+    "$oid": "636b557ebba701cbd5683893"
+  },
+  "restaurant_name": "Bindra pakode",
+  "name": "Spring roll",
+  "image": "springroll.png",
+  "price": "90",
+  "description": "Spring roll is a traditional Chinese savory snack where a pastry sheet is filled with vegetables, rolled & fried."
+},{
+  "_id": {
+    "$oid": "636b55bcbba301cbd2987896"
+  },
+  "restaurant_name": "Bindra pakode",
+  "name": "French fries",
+  "image": "frnchfries.png",
+  "price": "90",
+  "description": "French fries, are snack made from deep-fried thin strips potatoes. Fries are often salted and served with ketchup, mayonnaise, or vinegar."
+},{
+  "_id": {
+    "$oid": "636b5629bba701cbd9973497"
+  },
+  "restaurant_name": "Bindra pakode",
+  "name": "Mix pakode",
+  "image": "mixpkoda.png",
+  "price": "90",
+  "description": " Mixed Vegetable pakora are veggie fritters made in South India. They are addictive, aromatic, crunchy and a delicious snack."
+},{
+  "_id": {
+    "$oid": "636b565ebba701cbd9233899"
+  },
+  "restaurant_name": "Bindra pakode",
+  "name": "Soft Drinks",
+  "image": "softdrnk.png",
+  "price": "40",
+  "description": "Life is better with a cold drink. Better quenched than sorry. Sip, sip, hooray."
+}]

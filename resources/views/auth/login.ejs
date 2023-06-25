@@ -1,0 +1,100 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizzlo:Food Delivery</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+  <body> -->
+    <section class="min-h-screen gradient-form bg-gray-200 md:h-screen bg-[url('/img/bkimage.jpg')] ">
+      <div class="container py-12 px-6 h-full">
+        <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
+          <div class="xl:w-10/12">
+            <div class="block bg-white shadow-lg rounded-lg">
+              <div class="lg:flex lg:flex-wrap g-0">
+                <div class="lg:w-6/12 px-4 md:px-0">
+                  <div class="md:p-12 md:mx-6">
+                    <div class="text-center">
+                      <img
+                        class="mx-auto w-48"
+                        src="/img/sizzlo_logo.png"
+                        alt="logo"
+                      />
+                      <h4 class="text-xl font-semibold mt-1 mb-12 pb-1">We are The Sizzlo Family</h4>
+                    </div>
+                    <form action="/login" method="POST">
+                      <p class="mb-4">Please login to your account</p>
+                      <div class="mb-4">
+                        <input
+                          type="email"
+                          name="email"
+                          class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-red-100	bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-red-100	 focus:border-gray-600 focus:outline-none"
+                          id="exampleFormControlInput1"
+                          placeholder="Email"
+                        />
+                      </div>
+                      <div class="mb-4">
+                        <input
+                          type="password"
+                          name="password"
+                          class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-red-100	bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-red-100	 focus:border-gray-600 focus:outline-none"
+                          id="exampleFormControlInput1"
+                          placeholder="Password"
+                        />
+                      </div>
+                      <div class="text-center pt-1 mb-12 pb-1">
+                        <button
+                          class="inline-block px-6 py-2.5 text-white font-semibold text-xs leading-tight uppercase rounded bg-orange-400 shadow-md hover:bg-orange-500 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3"
+                          type="submit"
+                        >
+                          Log in
+                        </button>
+                        <% if(messages.error){ %>
+                          <span class="text-red-500 text-sm"><%= messages.error%></span>
+                        <% } %>
+                        <!-- <a class="text-gray-500" href="#!">Forgot password?</a> -->
+                      </div>
+                      <div class="flex items-center justify-between pb-6">
+                        <p class="mb-0 mr-2">Don't have an account?</p>
+                        <a href="/register" class="hover:bg-orange-400 hover:rounded">
+                          <button
+                            type="button"
+                            class="inline-block px-6 py-2 border-2 border-orange-400 text-orange-500 font-semibold text-xs leading-tight uppercase rounded hover:bg-orange hover:text-white hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
+                            Sign Up
+                          </button>
+                          </a>
+                       
+                      </div>
+                    </form>
+                  </div>
+                </div>
+
+
+                <div
+                  class="lg:w-6/12  flex items-center lg:rounded-r-lg rounded-b-lg lg:rounded-bl-none bg-amber-900">
+                  <div class="text-white px-4 py-16 md:p-12 md:mx-6">
+                    <!-- <h4 class="text-xl font-semibold mb-6">We are more than just a company</h4> -->
+                    <p class="text-md ">
+                      Cooking is all about people. Food is maybe the only universal thing that really has the power to bring everyone together. No matter what culture, everywhere around the world, people eat together.
+                    </p>
+                    <a href="/">
+                      <button
+                        type="button"
+                        class="inine-block px-6 py-2.5 mt-8 text-white font-semibold text-xs leading-tight uppercase rounded bg-orange-500 shadow-md hover:bg-orange-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3">
+                        Explore more
+                      </button>
+                      </a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  <!-- </body>
+
+</html> -->

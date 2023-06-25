@@ -1,0 +1,236 @@
+  <script>
+//     const paymentType = document.querySelector('#payment');
+// const orderButton = document.querySelector("#order-now-button");
+// const orderform = document.querySelector("#payment-form");
+// // const paymentLink = document.querySelector("#order-button-link");
+// paymentType.addEventListener('change',(e)=>{
+//     if(e.target.value=='Online'){
+//        orderButton.innerHTML="Proceed to Pay";
+//     //    orderButton.type="button";
+//     //    orderform.action="/order"
+//         orderButton.onclick = function(e){
+//         rzp1.open();
+//         e.preventDefault();
+//     }
+
+//     // paymentLink.href=""
+//     }
+//     else{
+//         orderButton.innerHTML="Confirm Order";
+//         orderButton.onclick=function(e){
+//             orderform.action="/orders"
+//         }
+//         // orderButton.type="submit";
+//         // orderform.action="/orders"
+//     }
+// })
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js "></script>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+        axios.post('/order').then((info)=>{
+            console.log(info)
+            var options = {
+    "key": "rzp_test_Z9cEGalCpXseOK", // Enter the Key ID generated from the Dashboard
+    "amount": "<%= session.cart.totalPrice *100 %>", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+    "currency": "INR",
+    "name": "Acme Corp",
+    "description": "Test Transaction",
+    "image": "https://example.com/your_logo",
+    "order_id": info.data.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+    "callback_url": "/is-order-complete",
+    // "prefill": {
+    //     "name": "Gaurav Kumar",
+    //     "email": "gaurav.kumar@example.com",
+    //     "contact": "9999999999"
+    // },
+    // "notes": {
+    //     "address": "Razorpay Corporate Office"
+    // },
+    "theme": {
+        "color": "#3399cc"
+    }
+};
+// document.getElementById('#order-now-button').onclick = function(e){
+//     rzp1.open();
+//     e.preventDefault();
+// }
+    
+</script>
+
+const paymentType = document.querySelector('#payment');
+const orderButton = document.querySelector("#order-now-button");
+const orderform = document.querySelector("#payment-form");
+// const paymentLink = document.querySelector("#order-button-link");
+paymentType.addEventListener('change',(e)=>{
+    if(e.target.value=='Online'){
+       orderButton.innerHTML="Proceed to Pay";
+       orderButton.type="button";
+    //    orderform.action="/order"
+    var rzp1 = new Razorpay(options);
+        orderButton.onclick = function(e){
+        rzp1.open();
+        e.preventDefault();
+         orderform.action="/orders"
+    }
+
+    // paymentLink.href=""
+    }
+    else{
+        orderButton.innerHTML="Confirm Order";
+        orderButton.onclick=function(e){
+            orderform.action="/orders"
+        }
+        // orderButton.type="submit";
+        // orderform.action="/orders"
+    }
+})
+  </script>
+
+  
+
+// <!-- <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+// <script>
+// // const User=require('../models/user')
+// const paymentType = document.querySelector('#payment');
+// const orderButton = document.querySelector("#order-now-button");
+// const orderform = document.querySelector("#payment-form");
+// // const paymentLink = document.querySelector("#order-button-link");
+// paymentType.addEventListener('change',(e)=>{
+//     if(e.target.value=='Online'){
+//        orderButton.innerHTML="Proceed to Pay";
+//     //    orderButton.type="button";
+//     //    orderform.action="/order"
+//         orderButton.onclick = function(e){
+//         rzp1.open();
+//         e.preventDefault();
+//         orderform.action="/orders"
+//     }
+
+//     // paymentLink.href=""
+//     }
+//     else{
+//         orderButton.innerHTML="Confirm Order";
+//         orderButton.onclick=function(e){
+//             orderform.action="/orders"
+//         }
+//         // orderButton.type="submit";
+//         // orderform.action="/orders"
+//     }
+// })
+// // var totalPrice= session.cart.totalPrice;
+// var options = {
+//     "key": 'rzp_test_Z9cEGalCpXseOK', // Enter the Key ID generated from the Dashboard
+//     "amount": "<%= session.cart.totalPrice *100 %>", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+//     "currency": "INR",
+//     "name": "Sizzlo",
+//     "description": "Proceed to payment",
+//     "image": "/img/sizzlo_logo.png",
+//     // "order_id": "", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+//     // "callback_url": "",
+//     // "prefill": {
+//     //     // "name": User.name,
+//     //     "email": "gargt6458@gmail.com",
+//     //     "contact": "8800219746"
+//     // },
+//     "notes": {
+//         "address": "Razorpay Corporate Office"
+//     },
+//     "theme": {
+//         "color": "#ed8936"
+//     }
+// };
+// var rzp1 = new Razorpay(options);
+// // document.getElementById('order-now-button').onclick = function(e){
+// //     rzp1.open();
+// //     e.preventDefault();
+// // }
+// </script> -->
+
+
+<label>Choose Delivery Time</label><br>
+<div class="inline-block relative w-full mb-4">
+  <select id="delivery" class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
+    <option value="Instant">Instant Delivery</option>
+    <option value="Schedule">Schedule Delivery</option>
+  </select>
+  <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+  </div>
+</div> 
+<div id="delivery-time" class="hidden">
+<label>Set Delivery Time</label>
+<input type="time" name="appt-time" min="08:00" max="17:00" class="border rounded-lg border-gray-400 p-2 mb-4 w-full" required>
+</div>
+
+
+${ order.paymentStatus ? 'paid' : 'Not paid' }
+
+
+
+
+
+
+
+
+const delivery= document.querySelector('#delivery');
+const delivery_time=document.querySelector("#delivery-time");
+
+delivery.addEventListener('change',(e)=>{
+  if(e.target.value=="Schedule"){
+    console.log("hii")
+     delivery_time.classList.remove("hidden");
+     delivery_time.classList.add("visible");
+  }else{
+    delivery_time.classList.remove("visible");
+    delivery_time.classList.add("hidden");
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//home
+<div class="mt-4 flex flex-1 flex-col items-center lg:items-start overflow-hidden">        
+				<h2 class="bg-clip-text text-orange-400 font-mono
+				italic font-bold text-2xl md:text-4 lg:text-3xl text-center lg:text-center  py-1 slideUp">
+					Taste of your homely food!
+					<!-- Learn. Cook. Share.<br/>Cooking Made Easy. -->
+				</h2>
+					<h2 class="bg-clip-text font-bold text-4xl md:text-4 lg:text-6xl text-center lg:text-center mb-2 py-1 slideUp">
+					Delicious every food bite!
+					<!-- Learn. Cook. Share.<br/>Cooking Made Easy. -->
+				</h2>
+				<div class="overflow-hidden">
+				<!-- <p class="text-xl md:text-2xl text-center lg:text-left slideUp">
+					Please choose your favorite food for everyday your part
+				</p>
+				<p class=" text-xl md:text-2xl text-center lg:text-left slideUp">
+					will be delivery right time your place</p> -->
+				<p class="font-sans italic text-2xl md:text-3xl text-center lg:text-left slideUp">
+					<!-- We promise you'll enjoy every sweet momemt. Find your favorite now,eat what you love and save your time for something cool! -->
+					Here is what you alwayd need. View our food <br> collection and order yummy and healthy food <br> within minutes.
+				</p>
+				<!-- <p class="font-thin text-xl md:text-3xl text-center lg:text-left slideUp">
+					in minutes.</p> -->
+				</p>
+				</div>
+				<div class="flex mx-auto md:mx-40 mt-8 justify-center flex-wrap">
+				<a href="/menu">
+				<button type="button" class="bg-teal-600 hover:bg-teal-600 text-white text-xl font-regular py-2 px-4 rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ...">
+					Order Now
+				</button>
+				</a>
+				</div>
+			</div>

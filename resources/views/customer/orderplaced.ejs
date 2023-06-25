@@ -1,0 +1,315 @@
+<% if(session.cart) { %>
+<section class="bg-gray-100">
+    <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+        <div class="lg:col-span-2 lg:py-12">
+            <p class="text-base mb-4 text-justify font-bold">Review Your Order and address details to avoid cancellations</p>
+            <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 ">
+          <p class="max-w-xl text-base text-justify  font-bold text-gray-500"><span class="font-bold text-red-500">Note: </span>If you cancel within 60 seconds of placing your order, a 100% refund will be issued. No refund for cancellations made after 60 seconds.</p>
+          <p class="mt-4 text-base text-justify font-bold text-gray-500">Avoid cancellation as it leads to food wastage.</p>
+          <a href="/terms-and-conditions"><h1 class="mt-4 font-bold text-orange-600 tracking-wide
+          underline decoration-dotted">READ  CANCELLATION POLICY</h1></a>
+          </div>
+          <!-- <div class="mt-8">
+            <a href="" class="text-2xl font-bold text-pink-600">
+              0151 475 4450
+            </a>
+  
+            <address class="mt-2 not-italic">
+              282 Kevin Brook, Imogeneborough, CA 58517
+            </address>
+          </div> -->
+        </div>
+  
+        <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+            <form action="/orders" method="POST" class="mt-4" id="payment-form">
+   <label>Phone Number</label>
+    <input type="text" name="phone" placeholder="Phone Number" class="border rounded-lg border-gray-400 p-2 mb-4 w-full" required>
+    <label>Address</label>
+    <input type="text" name="address" placeholder="Address" class="border rounded-lg border-gray-400 p-2 mb-4 w-full" required>
+    <label>Special Instruction</label>
+    <textarea type="text" name="specialInstructions" class="border rounded-lg border-gray-400 p-2 mb-4 w-full" rows="2" placeholder="Write instructions for restaurant"></textarea>
+    <!-- <input type="text" name="specialInstructions" class="border rounded-lg border-gray-400 p-2 mb-4 w-full" rows="2" placeholder="Write instructions for restaurant"> -->
+    <label>Delivery Instructions</label>
+    <ul class="grid gap-2 mb-4 md:grid-cols-4">
+    <li>
+        <input type="checkbox" id="bell-option" name="deliveryInstructions1" value="Avoid ringing bell" class="hidden peer">
+        <label for="bell-option" class="inline-flex justify-between items-center p-2 text-gray-500 bg-white rounded-lg w-36 border border-gray-400 cursor-pointer peer-checked:border-2 peer-checked:border-orange-500">                           
+            <div class="block">
+                <i class="fa-solid fa-bell"></i>
+                <div class="w-full text-sm">Avoid ringing bell</div>
+            </div>
+        </label>
+    </li>
+    <li>
+        <input type="checkbox" id="door-option" name="deliveryInstructions2" value="Leave at the door" class="hidden peer">
+        <label for="door-option" class="inline-flex justify-between items-center p-2 text-gray-500 bg-white rounded-lg w-36 border border-gray-400 cursor-pointer peer-checked:border-2 peer-checked:border-orange-500">                           
+            <div class="block">
+                <i class="fa-solid fa-door-open"></i>
+                <div class="w-full text-sm">Leave at the door</div>
+            </div>
+        </label>
+    </li>
+    <li>
+        <input type="checkbox" id="calling-option" name="deliveryInstructions3" value="Avoid calling" class="hidden peer" >
+        <label for="calling-option" class="inline-flex justify-between items-center p-2 text-gray-500 bg-white rounded-lg border border-gray-400 cursor-pointer w-36 peer-checked:border-2 peer-checked:border-orange-500">                           
+            <div class="block">
+                <i class="fa-solid fa-phone-volume"></i>
+                <div class="text-sm">Avoid calling</div>
+            </div>
+        </label>
+    </li>
+    <li>
+        <input type="checkbox" id="security-option" name="deliveryInstructions4" value="Leave with security" class="hidden peer">
+        <label for="security-option" class="inline-flex justify-between items-center p-2 text-gray-500 bg-white rounded-lg w-36 border border-gray-400 cursor-pointer peer-checked:border-2 peer-checked:border-orange-500">                           
+            <div class="block">
+                <i class="fa-solid fa-person-military-pointing"></i>
+                <div class="text-sm">Leave with security</div>
+            </div>
+        </label>
+    </li>
+</ul>
+<label>Total amound paid</label><br>
+<input type="text" name="amount" placeholder= "₹ <%= session.cart.totalPrice %>" class="border rounded-lg border-gray-400 p-2 mb-4 w-full" disabled>
+
+<label>Choose Delivery Time</label><br>
+<div class="inline-block relative w-full mb-4">
+  <select id="delivery" name="deliveryTime"class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
+    <option value="Instant">Instant Delivery</option>
+    <option value="Schedule">Schedule Delivery</option>
+  </select>
+  <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+  </div>
+</div> 
+<div id="delivery-time" class="hidden">
+<label>Set Delivery Time</label>
+<input type="time" name="appttime" min="08:00" max="17:00" class="border rounded-lg border-gray-400 p-2 mb-4 w-full" required>
+</div>
+
+<label>Choose Your Payment Method</label><br>
+<div class="inline-block relative w-full">
+    <select id="payment" name="paymentType" class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
+      <option value="Online">Pay Online</option>
+      <option value="Cash on delivery">Cash on Delivery</option>
+      
+    </select>
+    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+      <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+    </div>
+  </div> 
+   <div class="mt-4">
+              <button id="rzp-button1"
+                type="submit"
+                class="font-medium font-bold inline-flex w-full items-center justify-center rounded-lg bg-teal-500 px-5 py-3 text-white sm:w-auto hover:bg-teal-600">Proceed to Pay
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <%}else{%>
+    <div class="empty-cart py-8">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl font-bold mb-2">Cart Empty 😒</h1>
+            <p class="text-gray-400">You Probably haven't orderd yet.
+                <br>
+                For order,go to the main page.
+            </p>
+            <img src="/img/empty-cart.png" alt="empty-cart" class="w-2/5 mx-auto mt-4">
+            <div class="mt-8">
+            <a href="/" class="text-white bg-orange-500 hover:bg-orange-600 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2">Go Back</a>
+            </div>
+        </div>
+    </div>
+  <%}%>
+  
+
+  
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <script>
+    
+
+const delivery= document.querySelector('#delivery');
+const delivery_time=document.querySelector("#delivery-time");
+
+delivery.addEventListener('change',(e)=>{
+  if(e.target.value=="Schedule"){
+    console.log("hii")
+     delivery_time.classList.remove("hidden");
+     delivery_time.classList.add("visible");
+  }else{
+    delivery_time.classList.remove("visible");
+    delivery_time.classList.add("hidden");
+  }
+});
+    const paymentType= document.querySelector('#payment');
+    const orderButton= document.querySelector('#rzp-button1');
+    const orderform = document.querySelector("#payment-form");
+
+    paymentType.addEventListener('change',(e)=>{
+      if(e.target.value== 'Online'){
+        document.querySelector('#rzp-button1').innerHTML="Proceed to Pay";
+        // document.querySelector('#rzp-button').id = "rzp-button1";
+        
+document.getElementById('rzp-button1').onclick = function(e){
+  var options = {
+    "key": "rzp_test_Z9cEGalCpXseOK", // Enter the Key ID generated from the Dashboard
+    "amount": "<%= session.cart.totalPrice*100 %>", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+    "currency": "INR",
+    "name": "Sizzlo",
+    "description": "Test Transaction",
+    "image": "/img/sizzlo_logo.png",
+    "order_id": orderId, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+    "callback_url": "https://mail.google.com/mail/u/0/#inbox",
+    // "prefill": {
+    //     "name": "Gaurav Kumar",
+    //     "email": "gaurav.kumar@example.com",
+    //     "contact": "9999999999"
+    // },
+    "handler": function (response){
+    // alert(response.razorpay_payment_id);
+    // alert(response.razorpay_order_id);
+    // alert(response.razorpay_signature);
+    var settings = {
+    "url": "/api/payment/verify",
+    "method": "POST",
+    "timeout": 0,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "data": JSON.stringify({response}),
+}
+
+    $.ajax(settings).done(function (response) {
+    // alert(JSON.stringify(response)); 
+    orderform.submit();
+});
+  },
+    "theme": {
+        "color": "#12D2BC"
+    },
+};
+
+// };
+var rzp1 = new Razorpay(options);
+
+rzp1.on('payment.failed', function (response){
+    alert(response.error.code);
+    alert(response.error.description);
+    alert(response.error.source);
+    alert(response.error.step);
+    alert(response.error.reason);
+    alert(response.error.metadata.order_id);
+    alert(response.error.metadata.payment_id);
+});
+  rzp1.open();
+  e.preventDefault();
+}
+      }
+      else{
+        document.querySelector('#rzp-button1').innerHTML="Confirm Order";
+        orderButton.onclick=function(e){
+          orderform.submit();
+        }
+        // document.querySelector('#rzp-button1').id="rzp-button";
+      }
+    });
+    // orderform.submit();
+  // paymentType.addEventListener('change',(e)=>{
+  //   if(e.target.value== 'Online'){
+  //       orderButton.innerHTML="Proceed to Pay";
+  //       orderButton.type="button";
+  //   }
+    
+  //   else{
+  //     orderButton.innerHTML="Confirm Order";
+  //     // orderButton.type="submit";
+  //     orderButton.onclick=function(e){
+  //           // orderform.action="/orders"
+  //       }
+  //       orderButton.type="submit";
+  //       // orderform.action="/orders"
+  //   }
+  // })
+var orderId ;
+$(document).ready(function(){
+    var settings = {
+  "url": "/create/orderId",
+  "method": "POST",
+  "timeout": 0,
+  // "headers": {
+  //   "Content-Type": "application/json"
+  // },
+  "data": JSON.stringify({
+    "amount": "<%= session.cart.totalPrice *100 %>"
+  }),
+};
+
+//creates new orderId everytime
+$.ajax(settings).done(function (response) {
+  orderId=response.orderId;
+  // console.log(orderId);
+  $("button").show();
+});
+});
+
+document.getElementById('rzp-button1').onclick = function(e){
+  var options = {
+    "key": "rzp_test_Z9cEGalCpXseOK", // Enter the Key ID generated from the Dashboard
+    "amount": "<%= session.cart.totalPrice*100 %>", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+    "currency": "INR",
+    "name": "Sizzlo",
+    "description": "Test Transaction",
+    "image": "/img/sizzlo_logo.png",
+    "order_id": orderId, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+    "callback_url": "https://mail.google.com/mail/u/0/#inbox",
+    // "prefill": {
+    //     "name": "Gaurav Kumar",
+    //     "email": "gaurav.kumar@example.com",
+    //     "contact": "9999999999"
+    // },
+    "handler": function (response){
+    // alert(response.razorpay_payment_id);
+    // alert(response.razorpay_order_id);
+    // alert(response.razorpay_signature);
+    var settings = {
+    "url": "/api/payment/verify",
+    "method": "POST",
+    "timeout": 0,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "data": JSON.stringify({response}),
+}
+
+    $.ajax(settings).done(function (response) {
+    // alert(JSON.stringify(response)); 
+    orderform.submit();
+});
+  },
+    "theme": {
+        "color": "#12D2BC"
+    },
+};
+
+// };
+var rzp1 = new Razorpay(options);
+
+rzp1.on('payment.failed', function (response){
+    alert(response.error.code);
+    alert(response.error.description);
+    alert(response.error.source);
+    alert(response.error.step);
+    alert(response.error.reason);
+    alert(response.error.metadata.order_id);
+    alert(response.error.metadata.payment_id);
+});
+  rzp1.open();
+  e.preventDefault();
+}
+
+</script>

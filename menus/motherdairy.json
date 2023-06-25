@@ -1,0 +1,316 @@
+[
+  {
+      "_id": {
+          "$oid": "6478d5eac18e25e736e91b54"
+        },
+      "restaurant_name":"Mother Dairy",
+      "name": "Organe flavour candy",
+      "image": "orangeflavour.jpg",
+      "price": "10",
+      "description": "The Orange flavoured ice candies are a burst of citrusy goodness"
+  },
+  {
+      "_id": {
+          "$oid": "5478d5eac18e25e736e91b51"
+        },
+      "restaurant_name":"Mother Dairy",
+      "name": "Maha cola flavour ice candy",
+      "image": "mahacola.jpg",
+      "price": "40",
+      "description": "The Maha Cola flavored ice candy is a unique and bold fusion of cola taste in a refreshing"
+  },
+  {
+    "_id": {
+        "$oid": "5478d5eac18e25e736e91b53"
+      },
+    "restaurant_name":"Mother Dairy",
+    "name": "Mango raspberry flavour ice candy",
+    "image": "mangoraspberry.jpg",
+    "price": "30",
+    "description": "The Mango Raspberry flavored ice candy is a delightful combination of sweet mango and tangyraspberry"
+},
+{
+  "_id": {
+      "$oid": "5478d5eac18e25e736e91b52"
+    },
+  "restaurant_name":"Mother Dairy",
+  "name": "Vanilla Cone",
+  "image": "vanilla.jpg",
+  "price": "50",
+  "description": "The Vanilla Cone is a smooth and creamy delight, combining rich vanilla-flavored ice cream with a crispy cone for a classic and satisfying treat"
+},
+{
+"_id": {
+    "$oid": "5478d5eac18e25e736e91b55"
+  },
+"restaurant_name":"Mother Dairy",
+"name": "Chocolate Cone",
+"image": "chocolate.jpg",
+"price": "80",
+"description": "The Chocolate Cone offers a heavenly combination of rich, velvety chocolate ice cream nestled within a crunchy cone, providing a delectable and indulgent treat"
+},
+{
+"_id": {
+  "$oid": "5478d5eac18e25e736e91b55"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Strawberry  Cone",
+"image": "strawberry.jpg",
+"price": "60",
+"description": "The Strawberry Cone from Mother Dairy presents a delightful fusion of creamy strawberry-flavored ice cream encased in a crispy cone"
+},
+
+{
+"_id": {
+"$oid": "5478d5eac18e25e736e91b58"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Black Forest Cone",
+"image": "blackforest.jpg",
+"price": "80",
+"description": "The Black Forest Cone from Mother Dairy offers a blissful combination of decadent chocolate ice cream, cherries, and chocolate flakes"
+},
+{
+"_id": {
+"$oid": "5478d5eac18e25e736e91b58"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Vanilla Brick",
+"image": "vaillabrick.jpg",
+"price": "120",
+"description": "Vanilla Cups from Mother Dairy are delectable desserts featuring creamy vanilla-flavored ice cream in convenient individual servings, perfect for satisfying your sweet cravings"
+},
+{
+"_id": {
+"$oid": "5478d5eac18e25e736e91b57"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Strawberry Brick",
+"image": "strawberrybrick.jpg",
+"price": "120",
+"description": "Strawberry Cups from Mother Dairy are delightful single-serve desserts that offer creamy strawberry-flavored ice cream, delivering a fruity and refreshing treat in every bite"
+},
+{
+"_id": {
+"$oid": "6478d5eac18e25e736e91b54"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Butterscotch Brick",
+"image": "butterscotch.jpg",
+"price": "100",
+"description": "Butterscotch Cups from Mother Dairy are indulgent single-serve desserts that showcase rich and creamy butterscotch-flavored ice cream"
+},
+{
+"_id": {
+"$oid": "6478d5eac18e25e736e91b57"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Choco Chips Brick",
+"image": "chocochip.jpg",
+"price": "150",
+"description": "Choco Chip Cups from Mother Dairy feature creamy ice cream infused with chocolate chips, offering a delightful combination of smoothness"
+},
+
+{
+"_id": {
+"$oid": "6478d5eac18e25e736e91b57"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Choco Chips Brick",
+"image": "chocochip.jpg",
+"price": "150",
+"description": "Choco Chip Cups from Mother Dairy feature creamy ice cream infused with chocolate chips, offering a delightful combination of smoothness"
+},
+
+{
+"_id": {
+"$oid": "6478d5eac18e25e736e91b53"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Kaju Kiahmish Brick",
+"image": "kajuKiahmish.jpg",
+"price": "180",
+"description": "Kaju Kishmish from Mother Dairy is a flavorful blend of cashews and raisins"
+},
+{
+"_id": {
+"$oid": "5478d5eac18e25e736e91b53"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Chocolate Gateau",
+"image": "ChocolateGateau.jpg",
+"price": "200",
+"description": "Chocolate Gateau ice cream is a decadent and indulgent frozen treat that combines rich chocolate flavor with cake-like swirls"
+},
+{
+"_id": {
+"$oid": "5478d5eac18e25e736e91b53"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Sundae Magic",
+"image": "SundaeMagic.jpg",
+"price": "50",
+"description": "Sundae Magic ice cream from Mother Dairy is a delightful combination of creamy ice cream, luscious sauces, and crunchy toppings"
+},
+{
+"_id": {
+"$oid": "5478d5eac18e25e736e91b53"
+},
+"restaurant_name":"Mother Dairy",
+"name": "French Vanilla",
+"image": "FrenchVanilla.jpg",
+"price": "60",
+"description": "French Vanilla ice cream from Mother Dairy is a velvety and smooth frozen delight infused with the classic and elegant essence of vanilla"
+},
+{
+"_id": {
+"$oid": "5478d5eac18e25e736e91b54"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Nolen Gur",
+"image": "nolenGur.jpg",
+"price": "70",
+"description": "Nolen Gur ice cream from Mother Dairy is a luscious and indulgent frozen dessert infused with the rich and caramel-like flavor of date palm jaggery"
+},
+{
+"_id": {
+"$oid": "6478d5eac18e25e736e91b55"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Pista Kulfi",
+"image": "PistaKulfi.jpg",
+"price": "50",
+"description": "Pista Kulfi ice cream from Mother Dairy is a creamy and rich frozen dessert infused with the delightful essence of pistachios"
+},
+{
+"_id": {
+"$oid": "6478d5eac18e25e736e91b50"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Kesar Kamaal Kulfi",
+"image": "Kesar.jpg",
+"price": "60",
+"description": "Kesar Kamaal Kulfi ice cream from Mother Dairy is a heavenly frozen delight, combining the aromatic and luxurious flavors of saffron"
+},
+{
+"_id": {
+"$oid": "9478d5eac18e25e736e91b51"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Rose Kulfi",
+"image": "rose.jpg",
+"price": "60",
+"description": "Rose Kulfi ice cream from Mother Dairy is a delightful frozen treat infused with the fragrant essence of roses, providing a unique"
+},
+{
+"_id": {
+"$oid": "9478d5eac18e25e736e91b52"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Rabri Kulfi",
+"image": "rabri.jpg",
+"price": "80",
+"description": "Rabri Kulfi ice cream from Mother Dairy is a creamy and indulgent frozen dessert that combines the rich and sweet flavors of rabri"
+},
+{
+"_id": {
+"$oid": "7478d5eac18e25e736e91b50"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Ek Dum Aam",
+"image": "aam.jpg",
+"price": "40",
+"description": "A tropical delight in a refreshing frozen form"
+},
+{
+"_id": {
+"$oid": "8478d5eac18e25e736e91b50"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Ek Dum Santra",
+"image": "santra.jpg",
+"price": "30",
+"description": "A tropical delight in a refreshing frozen form"
+},
+{
+"_id": {
+"$oid": "8478d5eac18e25e736e91b51"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Chillz Choco Sparkle  ",
+"image": "chillz.jpg",
+"price": "60",
+"description": "Chillz Choco Sparkle from Mother Dairy is a delightful frozen treat that features a creamy chocolate ice cream with a hint of sparkle"
+},
+{
+"_id": {
+"$oid": "8478d5eac18e25e736e91b54"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Chillz Atrangi bar",
+"image": "atrangi.jpg",
+"price": "40",
+"description": "Chillz Atrangi Mini Bar from Mother Dairy is a delightful frozen treat that offers a playful combination of different flavors and textures in a mini-sized bar, providing a fun"
+},
+{
+"_id": {
+"$oid": "6478d5eac18e25e736e91b90"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Flavoured Milk",
+"image": "FlavouredMilk.jpg",
+"price": "30",
+"description": "Deliciously flavored and creamy dairy goodness"
+},
+{
+"_id": {
+"$oid": "3478d5eac18e25e736e91b56"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Milk Shake",
+"image": "milkshake.jpg",
+"price": "30",
+"description": "Gut-friendly and nourishing beverage"
+},
+
+{
+"_id": {
+"$oid": "3478d5eac18e25e736e91b52"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Haldi Milk ",
+"image": "haldimilk.jpg",
+"price": "30",
+"description": "Gut-friendly and nourishing beverage"
+},
+{
+"_id": {
+"$oid": "3478d5eac18e25e736e91b51"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Nutrifit Probiatic Drink  ",
+"image": "nutrifit.jpg",
+"price": "50",
+"description": "Gut-friendly and nourishing beverage"
+},
+{
+"_id": {
+"$oid": "2478d5eac18e25e736e91b51"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Lassi",
+"image": "lassi.jpg",
+"price": "20",
+"description": "A creamy and refreshing yogurt-based drink"
+},
+{
+"_id": {
+"$oid": "6478d5eac18e25e736e91b51"
+},
+"restaurant_name":"Mother Dairy",
+"name": "Masala Chach",
+"image": "masala.jpg",
+"price": "20" ,
+"description": "A creamy and refreshing yogurt-based drink"
+}
+]

@@ -1,0 +1,190 @@
+[{
+  "_id": {
+    "$oid": "636a9afa6f0492a7e10880ba"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Stuffed Paratha",
+  "image": "stuff.png",
+  "price": "100",
+  "description": "Parathas stuffed with aloo/onion is what you should be eating if you want something healthy, tasty and fulfilling."
+},{
+  "_id": {
+    "$oid": "636b4fd6bba701cbd9983888"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Chole Chawal",
+  "image": "chole.png",
+  "price": "100",
+  "description": "Chole chawal is a staple dish for all the food lovers out there! Our masala chole is cooked in a tangy paste of herbs and a Desi Punjabi Tadka."
+},{
+  "_id": {
+    "$oid": "636b5480bba701cbd9983889"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Rajma Chawal",
+  "image": "rajma.png",
+  "price": "100",
+  "description": "It tastes lipsmacking when served hot with steamed rice and now it has turned out to be one of the most favorite comfort foods"
+},{
+  "_id": {
+    "$oid": "636b54a0bba701cbd998388a"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Laccha Paratha",
+  "image": "laccha.png",
+  "price": "100",
+  "description": "This flaky crispy paratha variant is also called as Lachedar paratha or Paratwala paratha."
+},{
+  "_id": {
+    "$oid": "636b54afbba701cbd998388b"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Chole Bhature",
+  "image": "bhature.png",
+  "price": "80",
+  "description": "Chole Bhature is one of the mouth-watering, spicy, exotic dish from Punjabi Cuisine"
+},{
+  "_id": {
+    "$oid": "636b54d1bba701cbd998388c"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Chole Kulche",
+  "image": "kulche.png",
+  "price": "90",
+  "description": "Chole kulche delicious combination of an all-purpose flour bread tossed in butter along with tangy and spicy chole"
+},{
+  "_id": {
+    "$oid": "636b54f7bba701cbd998388d"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Maggi",
+  "image": "maggi.png",
+  "price": "80",
+  "description": "Endless love for Maggi!Raise your hands if you feel that Maggi is not just a food item, but life.Rush right away and order your favourite Maggi."
+},{
+  "_id": {
+    "$oid": "636b5508bba701cbd998388e"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Aloo Samosa",
+  "image": "samosa.png",
+  "price": "30",
+  "description": "Samosas are great because of the combination of the crispy outside, which forms during frying, and the flavourful filling on the inside. "
+},{
+  "_id": {
+    "$oid": "636b5513bba701cbd998388f"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Chowmein Samosa",
+  "image": "csamosa.png",
+  "price": "50",
+  "description": "The Classic Samosa Gets An Indo-Chinese Twist.This chowmein samosa is the best solution for your craving."
+},{
+  "_id": {
+    "$oid": "636b5541bba701cbd9983890"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Veg Patty",
+  "image": "patty.png",
+  "price": "50",
+  "description": "A snack with crisp and flanky outer layer outer layer and mixed vegetable stuffing is a quick and tasty way of satisfying urge of something savory."
+},{
+  "_id": {
+    "$oid": "636b5559bba701cbd9983891"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Cheese/Veg Sandwich",
+  "image": "sandwich.png",
+  "price": "60",
+  "description": "Your satisfaction is what we care for . Your hunger is what we strive to eradicate."
+},{
+  "_id": {
+    "$oid": "636b556abba701cbd9983892"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Veg Burger",
+  "image": "burger.png",
+  "price": "50",
+  "description": "Buns with Aloo tikki loaded with veggies and cheese. when life throws you a burger, eat it."
+},{
+  "_id": {
+    "$oid": "636b557ebba701cbd9983893"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Bread Pakora",
+  "image": "bread.png",
+  "price": "50",
+  "description": "Bread Pakora is a much loved snack of deep fried and savory bread fritters from the North Indian Cuisine, especially Punjabi Cuisine."
+},{
+  "_id": {
+    "$oid": "636b559fbba701cbd9983894"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Virgin Mojito",
+  "image": "mojito.png",
+  "price": "90",
+  "description": "The virgin Mojito is a basically non-alcoholic drink.If life gives you lemon, make mojito out of it."
+},{
+  "_id": {
+    "$oid": "636b55abbba701cbd9983895"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Cold Coffee",
+  "image": "coffee.png",
+  "price": "80",
+  "description": "Have you had your coffee yet? If you did, then hooray to you! You're now ready for the next step! "
+},{
+  "_id": {
+    "$oid": "636b55bcbba701cbd9983896"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Tea",
+  "image": "tea.png",
+  "price": "40",
+  "description": "A cup of tea is a solution for everything. A hug in a cup."
+},{
+  "_id": {
+    "$oid": "636b5629bba701cbd9983897"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Soup",
+  "image": "soup.png",
+  "price": "90",
+  "description": "Soup puts the heart at ease, calms down the violence of hunger, eliminates the tension of the day, and awakens and refines the appetite."
+},{
+  "_id": {
+    "$oid": "636b5648bba701cbd9983898"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Lassi",
+  "image": "lassi.png",
+  "price": "80",
+  "description": "Life is better with a cold sweet LASSI in your hand. GO and grab yourself one!    "
+},{
+  "_id": {
+    "$oid": "636b565ebba701cbd9983899"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Soft Drinks",
+  "image": "soft.png",
+  "price": "MRP",
+  "description": "Life is better with a cold drink. Better quenched than sorry. Sip, sip, hooray"
+},{
+  "_id": {
+    "$oid": "636b566fbba701cbd998389a"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Blue Berry Soda",
+  "image": "bluesoda.png",
+  "price": "90",
+  "description": "This Blueberry Soda soothes your body and mind with a lingering taste of Blueberry. The drink is rejuvenating and healthy."
+},{
+  "_id": {
+    "$oid": "636b5687bba701cbd998389b"
+  },
+  "restaurant_name":"College Canteen",
+  "name": "Shikanji/Lemonade",
+  "image": "lemon.png",
+  "price": "90",
+  "description": "This is a refreshing drink to quench your thirst. Lemon soda is instant and quick to make, helps in digestion too."
+}]

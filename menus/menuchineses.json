@@ -1,0 +1,145 @@
+[{
+  "_id": {
+    "$oid": "5eee66c4a27a66807cd1bea6"
+  },
+  "restaurant_name": "Chinese Corner",
+  "name": "Chilli Potato",
+  "image": "chillipo.jpg",
+  "price": "110",
+  "description": "Fried potatoes tossed in spicy chilly sauce with added flavour of honey.'"
+},{
+  "_id": {
+    "$oid": "5eee66c4a27a66897cf2bea8"
+  },
+  "restaurant_name": "Chinese Corner",
+  "name": "Chilli Paneer",
+  "image": "chillipa.jpg",
+  "price": "160",
+  "description": "Cottage cheese cubes marinated with spices and tossed in chilly sauce."
+},{
+  "_id": {
+    "$oid": "5eee66c4a27a66807df2bea9"
+  },
+  "restaurant_name": "Chinese Corner",
+  "name": "Chilli Gobhi",
+  "image": "chillig.jpg",
+  "price": "140",
+  "description": "Cauliflower marinated with cornflour that have been deepfried and cooked with mix sauces."
+},{
+  "_id": {
+    "$oid": "636a9afa6f0492a7e11880ba"
+  },
+  "restaurant_name": "Chinese Corner",
+  "name": "Veg Noddles",
+  "image": "vegnoddles.jpg",
+  "price": "100",
+  "description": "Veg Noodles ia a healthy chinese dish, cooked noodles are stir fried with lots of veggies."
+},{
+  "_id": {
+    "$oid": "636b4fd6bba701cbd9883888"
+  },
+  "restaurant_name": "Chinese Corner",
+  "name": "Manchurian",
+  "image": "manchurian.png",
+  "price": "170",
+  "description": "Deep fried vegetables balls in a soya sauce based sauce."
+},{
+  "_id": {
+    "$oid": "636b5480bba701cbd9983889"
+  },
+  "restaurant_name": "Chinese Corner",
+  "name": "Fried Rice",
+  "image": "friedrice.png",
+  "price": "110",
+  "description": "Cooked rice that has been stir fried in a pan with vegetables and mix sauces.."
+},{
+  "_id": {
+    "$oid": "636b54a0bba701cbd997388a"
+  },
+  "restaurant_name": "Chinese Corner",
+  "name": "Paneer Chowmein",
+  "image": "pchowmein.png",
+  "price": "140",
+  "description": "Boiled noodles cooked with paneer and soya sauce slurry."
+},{
+  "_id": {
+    "$oid": "636b54afbba701cbd958388b"
+  },
+  "restaurant_name": "Chinese Corner",
+  "name": "Singapuri Chowmein",
+  "image": "schowmein.png",
+  "price": "150",
+  "description": "Boiled noodles cooked with chilli sauce based and veggies."
+},{
+  "_id": {
+    "$oid": "636b54d1bba701ced998388c"
+  },
+  "restaurant_name": "Chinese Corner",
+  "name": "Red Sauce Pasta",
+  "image": "rpasta.png",
+  "price": "140",
+  "description": "Boiled Pasta cooked with red sauce ,veggies and herbs."
+},{
+  "_id": {
+    "$oid": "636b54f7bba701cbd99e388d"
+  },
+  "restaurant_name": "Chinese Corner",
+  "name": "White Sauce Pasta",
+  "image": "wpasta.png",
+  "price": "150",
+  "description": "Boiled Pasta cooked with cream milk and herbs and served with cheese."
+},{
+  "_id": {
+    "$oid": "636b5508bba721cbd998388e"
+  },
+  "restaurant_name": "Chinese Corner",
+  "name": "Veg Steam Momos",
+  "image": "vsm.png",
+  "price": "60",
+  "description": "Momos stuffed with lots of veggies,cooked in steam and served with chilli sauce and mayo."
+},{
+  "_id": {
+    "$oid": "636b5513bba791cbd998388f"
+  },
+  "restaurant_name": "Chinese Corner",
+  "name": "Paneer Steam Momos",
+  "image": "psm.png",
+  "price": "80",
+  "description": "Momos stuffed with panner mixture cooked in steam and served with chilli sauce and mayo."
+},{
+  "_id": {
+    "$oid": "636b5541bba701cbd9982890"
+  },
+  "restaurant_name": "Chinese Corner",
+  "name": "Mix Sauce Pasta",
+  "image": "mixpasta.png",
+  "price": "150",
+  "description": "Boiled Pasta cooked with red sauce and white sauce ,veggies and herbs."
+},{
+  "_id": {
+    "$oid": "636b5559bba701cbd9985891"
+  },
+  "restaurant_name": "Chinese Corner",
+  "name": "Soft Drinks",
+  "image": "soft.png",
+  "price": "40",
+  "description": "Life is better with a cold drink. Better quenched than sorry. Sip, sip, hooray."
+},{
+  "_id": {
+    "$oid": "636b556abba701cbd6983892"
+  },
+  "restaurant_name": "Chinese Corner",
+  "name": "Veg Burger",
+  "image": "burger.png",
+  "price": "50",
+  "description": "Buns with Aloo tikki loaded with veggies and cheese. when life throws you a burger, eat it."
+},{
+  "_id": {
+    "$oid": "636b565ebba701cbd9383899"
+  },
+  "restaurant_name": "Chinese Corner",
+  "name": "Tandoori Momos veg",
+  "image": "tandooriveg.jpg",
+  "price": "140",
+  "description": "Tantalising steamed momos marinated with a punch of Indian spices and a crunchy vegetable stuffing, cooked in an oven to perfect crisp, these tandoori momos are sure to make you drool."
+}]

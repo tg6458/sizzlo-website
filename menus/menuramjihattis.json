@@ -1,0 +1,154 @@
+[{
+  "_id": {
+    "$oid": "636a9afa6f0493a7e10880ba"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Masala Dosa",
+  "image": "masalad.png",
+  "price": "90",
+  "description": "Golden crispy thin fermented batter with aloo bhaji, served with our signature tangy sambhar and chutney."
+},{
+  "_id": {
+    "$oid": "636b4fd6bba702cbd9983888"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Special Paneer Masala Dosa",
+  "image": "pdosa.png",
+  "price": "120",
+  "description": "Golden crispy thin fermented batter dosai is stuffedwith paneer bhaji, served with our signature tangy sambhar."
+},{
+  "_id": {
+    "$oid": "636b5480bba708cbd9983889"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Chole Kulche",
+  "image": "kulche.png",
+  "price": "70",
+  "description": "Chole kulche delicious combination of an all-purpose flour bread tossed in butter along with tangy and spicy chole"
+},{
+  "_id": {
+    "$oid": "636b54a0bba704cbd998388a"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Palak Corn",
+  "image": "pc.png",
+  "price": "100",
+  "description": "Spinnach purey is saute in butter with boiled corns and herbs."
+},{
+  "_id": {
+    "$oid": "636b54afbba705cbd998388b"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Chole Bhature",
+  "image": "bhature.png",
+  "price": "90",
+  "description": "The very famous north Indian Dish which is served with achaar and chutney"
+},{
+  "_id": {
+    "$oid": "636b54d1bba721cbd998388c"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Chinese Platter",
+  "image": "cp.png",
+  "price": "190",
+  "description": "Different chinese items served together with mix sauces."
+},{
+  "_id": {
+    "$oid": "636b54f7bba701cbt998388d"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Malai Paneer Roll",
+  "image": "mpr.png",
+  "price": "80",
+  "description": "Cottage cheese cubes are marinated in cream and rolled with veggies."
+},{
+  "_id": {
+    "$oid": "636b5508bba702cbd998388e"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Chur Chur Naan Thali",
+  "image": "ccnt.png",
+  "price": "190",
+  "description": "The famous chur chur naan thali contains shahi paneer+dal makhni+2 naan+raita+salad."
+},{
+  "_id": {
+    "$oid": "636b5513bba707cbd998388f"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Aloo Naan Thali",
+  "image": "ant.png",
+  "price": "150",
+  "description": "Shahi Paneer and Dal Makhni with 2 aloo naan is served with raita."
+},{
+  "_id": {
+    "$oid": "636b5541bba751cbd9983890"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Paneer Naan Thali",
+  "image": "pnt.png",
+  "price": "200",
+  "description": "The Paneer Naan is served with kadai paneer and dal tadka with salad and chutney."
+},{
+  "_id": {
+    "$oid": "636b5559bba701cbd9973891"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Butter Naan Thali",
+  "image": "bnt.png",
+  "price": "200",
+  "description": "Dal makhni and Shahi paneer is served with 2 butter naan along with chutney."
+},{
+  "_id": {
+    "$oid": "636b556abba701cbd9983992"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Stuffed Parantha Thali",
+  "image": "spt.png",
+  "price": "170",
+  "description": "Two paranthas is stuffed with veggies and cottagr cheese and served with salad and achaar."
+},{
+  "_id": {
+    "$oid": "636b557ebba701cbd5983893"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Special Thali",
+  "image": "st.png",
+  "price": "240",
+  "description": "Two stuffed paneer parantha or naan is served with dal, shahi paneer along with 2 gulabjamun."
+},{
+  "_id": {
+    "$oid": "636b55bcbba701cbd2983896"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Gajar Ka HalwaTea",
+  "image": "gkh.png",
+  "price": "100",
+  "description": "Gajar Halwa is a popular sweet made with khoya,milk ,sugar ,dryfruits and carrots."
+},{
+  "_id": {
+    "$oid": "636b5629bba701cbd9973897"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Sponge Rasgulla",
+  "image": "sr.png",
+  "price": "50",
+  "description": "Two sponge Rasgullas is served with sugar syrup. The popular Indian sweet recipes that is made by curdling milk."
+},{
+  "_id": {
+    "$oid": "636b5648bba701cbd9993898"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Special lassi",
+  "image": "lassi.png",
+  "price": "80",
+  "description": "Pure dahi blended with ice and sugar.Perfect beverage."
+},{
+  "_id": {
+    "$oid": "636b565ebba701cbd9283899"
+  },
+  "restaurant_name": "Ram Ji Di Hatti",
+  "name": "Soft Drinks",
+  "image": "soft.png",
+  "price": "40",
+  "description": "Life is better with a cold drink. Better quenched than sorry. Sip, sip, hooray."
+}]
